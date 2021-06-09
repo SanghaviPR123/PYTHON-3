@@ -1,0 +1,98 @@
+#Q1 To find the greatest number among 3 random numbers given by the user .
+"""
+x = int(input("enter the first number : "))
+y = int(input("enter the second number : "))
+z = int(input("enter the third number : "))
+def find_greatest_number():
+    if(x>=y)and(x>=z):
+        greatestnumber =x
+    elif(y>=x)and(y>=z):
+        greatestnumber = y
+    else:
+        greatestnumber =z
+    print("greatst number is : ",greatestnumber)
+find_greatest_number()
+"""
+#Q2 To find the sum and product of 2 numbers and difference b/w the sum and product .
+"""
+def sum(x,y):
+    s=x+y
+    return s
+def prdct(x,y):
+    p=x*y
+    return p
+def dif(x,y):
+    d=x-y
+    return d
+a=int(input("enter the first number : "))
+b=int(input("enter the second number :"))
+s=sum(a,b)
+p=prdct(a,b)
+d=dif(p,s)
+print("sum of ",a,"and",b,"is",s)
+print("product of ",a,"and",b,"is",p)
+print("difference of ",p,"and",s,"is",d)
+"""
+
+#Q3 To find the sum of all element in a list
+"""
+l = [1,2,3,4,]
+def sum(x):
+    s = 0
+    for i in range (0.len(x)):
+        s =s+x[i]
+    return s
+"""
+#Q4 To reverse the list
+"""
+l =[1,2,3,4,5,6]
+def reverse(x):
+    x.reverse()
+    return x
+p = rev(l)
+print(p)
+    
+"""
+
+#Q5  Break function
+"""
+list = [1,2,3,4,5,6,7]
+i=0 
+x=int(input("enter the number"))
+
+while i<len(1):
+    if l[i]==3:
+        break
+    else:
+        print(l[i])
+    i=i+1
+"""  
+
+#Q6 To print the odd numbers b/w 1 and 20 using continue
+"""
+for i in range (1,21):
+    if i == 1:
+        continue
+    if i == 3:
+        continue
+    if i == 5:
+        continue
+    if i == 7:
+        continue
+    if i == 9:
+        continue
+    if i == 11:
+        continue
+    if i == 13:
+        continue
+    if i == 15:
+        continue
+    if i == 17:
+        continue
+    if i == 19:
+        continue
+    print(i)
+"""
+    
+    
+    
