@@ -1,0 +1,60 @@
+"""#Q1   promotion to next cls
+x = int(input("Enter you mark: "))
+if x>90:
+    print("A")
+if x<=90 and x>80:
+    print("B")
+if x<=80 and x>=60:
+    print("C")
+if x<60 :
+    print("D")"""
+    
+    
+    
+"""#Q2  leap year
+x = int(input("Enter the first Value: "))
+z = x%400
+y = x%100
+r = x%4
+if z==0 :
+    print("x, is a leap year ")
+else:
+    if y!=0 and r==0 :
+        print((x) , "is aleap year")
+    else:
+        print((x), "is not a leap year")"""
+        
+        
+        
+        
+"""#Q3
+x = (1,7)
+x = int(input("Enter the Value: "))
+if x==1:
+    print("Sunday")
+if x==2:
+    print("Monday")
+if x==3:
+    print("Tuesday")
+if x==4:
+    print("Wednesday")
+if x==5:
+    print("Thursday")
+if x==6:
+    print("Friday")
+if x==7:
+    print("Saturday")"""
+    
+    
+    
+"""#Q4 odd or even number
+x = int(input("Enter the value: "))
+z = x%2
+if z==0:
+    txt="{} is an even number"
+    print(txt.format(x))
+else:
+    txt="{} is an odd number"
+    print(txt.format(x))"""
+
+    
