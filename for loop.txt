@@ -1,0 +1,23 @@
+#q1
+"""
+x=(5,100)
+for i in range(5,100,2):
+    print(i,end=" ")
+"""
+#q2
+"""
+list=["January","February","March","April","May","June","Jully","August","September","October","November","December"]
+for i in list:
+    print(i,end=" ")
+"""
+"""
+#q3
+list=[11,2,3,6,8]
+sum=0 
+pdt=1 
+for i in list:
+    sum=sum+i 
+    pdt=pdt*i 
+print("sum of all elements in the list",sum)
+print("product of all elements in the list",pdt)
+"""
