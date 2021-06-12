@@ -1,0 +1,44 @@
+# GIVING INFORMATION ABOUT THE GAME .
+print("Lets start a game ! This game is played by 2 people .1 player will think about a number and input is given to the system and the next one should guess that secret number . player 2 will be provided with 3 chances for guessing the correct answer . ")
+z=str(input("DO YOU WANT TO PLAY THIS GAME?(YES/N0)"))                  #getting input from the user whether they are interested to play the game
+
+while z== "NO":                                                         #to terminate the game if the user is not interested.
+    print("TRY OUT NEXT TIME")
+    break
+if z == "YES":                                                          #getting permision to continue
+    print("GAME STARTS")
+
+
+    x = int(input("Enter the secret number  ;"))                           #input given by the user 1 (secret number)
+    y = int (input("Enter your first guess  ;"))                           # input by gamer to find the secret number
+
+
+    if y != x :                                                         #checking whether the number given by user is greater or lesser than the secret number
+        if y > x:
+            print("Your value is greater than the secret value .")
+        elif y<x :
+            print("Your number is less than the secret value.")
+    while y == x:                                                       # checking whether the answer is correct and teminating the process
+        print("WOW! it was an absalute guess.")
+        break
+    if y != x:                                                          # providing the second chance and checking how larger or smaller te number to the secret number
+        y = int(input("Enter the number for your second chance ; "))
+        if y != x :
+            if y > x:
+                print("Your value is greater than the secret value .")
+            elif y<x :
+                print("Your number is less than the secret value .")
+        while y == x:                                                   # if the number is correcr terminates the process
+            print("WoW! it was an absalute guess.")
+            break
+        if y != x :                                                     # providing the third chance , and if the answer is wrong game ends.
+            y = int(input("enter the number for your last chance"))
+            if y != x :
+                print("YOU LOST ! BETTER LUCK NEXT TIME.")
+            while x==y:                                                 # if the  gamer guess the correct number congratulating and ends the game
+                print("Wow! it was an absalute guess.")
+                break
+
+
+            
+    
