@@ -1,0 +1,45 @@
+"""Q1 To find the product of 2 numbers
+x = int(input("enter the value of first number"))
+y = int(input("enter the value of second number"))
+print(x*y)#product function , to obtain the product of 2 values"""
+
+
+"""Q2 To find the reminder after diving 2 numbers
+x = 8# -*- coding: utf-8 -*-
+y = 7 
+print(x%y)
+print(y%x)# modulus function to find the reminder obtained while dividing to numbers"""
+
+
+
+"""Q3  
+name="sanghavi"
+age=19
+txt="my name is {} . i am {} years old ."
+print(txt.format(name,age))"""
+
+
+
+""""Q4  inputing values and finding the datatype
+x = int(input("enter the value of first number"))
+y = int(input("enter the value of second number"))
+print(x/y)# division to get the actual value while dividing to values
+print(type(x))#data type of x
+print(type(y))# data type of y"""
+
+
+"""Q5  double division
+x = int(input("enter the value of first number"))
+y = int(input("enter the value of second number"))
+print(x//y)#division , to get the integer value only
+print(type(x))
+print(type(y))"""
+
+
+
+"""Q6 input and performing function
+x = int(input("enter the value of first number"))
+y = int(input("enter the value of second number"))
+z = x+y
+txt = "sum of x and y is {}"
+print(txt.format(z))"""
